@@ -1,0 +1,37 @@
+Subject: [PATCH] slot NPC fix
+---
+Index: src/engine/net/client/handlers/ActivateNPCMsgHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/net/client/handlers/ActivateNPCMsgHandler.java b/src/engine/net/client/handlers/ActivateNPCMsgHandler.java
+--- a/src/engine/net/client/handlers/ActivateNPCMsgHandler.java	(revision af269d6b330cac430880df4724c18697af7c2322)
++++ b/src/engine/net/client/handlers/ActivateNPCMsgHandler.java	(revision 2e5892ff32e48aab433f8a24a3d1774bd693ccd9)
+@@ -100,6 +100,7 @@
+ 
+             if (contractItem == null)
+                 return false;
++
+             if (msg.getContractItem() == 850) {//runemaster
+                 for (AbstractCharacter abs : building.getHirelings().keySet()) {
+                     NPC npc = (NPC) abs;
+@@ -143,8 +144,16 @@
+                     if (contract.getContractID() == 865)//siege engineer
+                         override = true;
+                 }
+-                if(building.getBlueprint().getBuildingGroup().equals(Enum.BuildingGroup.SIEGETENT)){
+-                    if(contract.getContractID() == 865)//siege engineer
++                if(building.getBlueprint().getBuildingGroup().equals(Enum.BuildingGroup.SHACK)){
++                    if(contract.getContractID() == 830)//merchant
++                        override = true;
++                }
++                if(building.getBlueprint().getBuildingGroup().equals(Enum.BuildingGroup.SHRINE)){
++                    if(contract.getContractID() == 252637)//votary
++                        override = true;
++                }
++                if(building.getBlueprint().getBuildingGroup().equals(Enum.BuildingGroup.BULWARK)){
++                    if(contract.getContractID() == 839)//artillery captain
+                         override = true;
+                 }
+                 if(override == false) {

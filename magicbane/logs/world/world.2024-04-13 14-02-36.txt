@@ -1,0 +1,200 @@
+INFO 2024-04-13 14:02:36.047 [main] engine.gameManager.ConfigManager.init(120) : Loading config from environment.
+INFO 2024-04-13 14:02:36.048 [main] engine.gameManager.ConfigManager.init(124) : MB_BIND_ADDR:172.17.0.2
+INFO 2024-04-13 14:02:36.048 [main] engine.gameManager.ConfigManager.init(124) : MB_EXTERNAL_ADDR:0.0.0.0
+INFO 2024-04-13 14:02:36.048 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_ADDRESS:localhost
+INFO 2024-04-13 14:02:36.048 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_PORT:3306
+INFO 2024-04-13 14:02:36.048 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_NAME:magicbane
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_USER:magicbox
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_PASS:ArtyomWasHere
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WAREHOUSE_ADDR:0.0.0.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WAREHOUSE_USER:forumuser
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WAREHOUSE_PASS:forumpass
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_LOGIN_PORT:6000
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_LOGIN_AUTOREG:TRUE
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_LOGIN_FNAME_REGEX:^[A-Za-z]+$
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_MAJOR_VER:1.2.26.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_MINOR_VER:5.26.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_NAME:MagicBox
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_MAPID:162
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_REALMMAP:3000002
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_PORT:8000
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_ACCESS_LVL:ACTIVE
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_WAREHOUSE_PUSH:false
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_MAINTENANCE:false
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_GREETING:Welcome to Shadowbane
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_KEYCLONE_MAX:4
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_USE_RUINS:false
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_AI_CAST_FREQUENCY:1.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_AI_AGGRO_RANGE:1.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_NORMAL_EXP_RATE:1.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_NORMAL_DROP_RATE:1.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_NORMAL_GOLD_RATE:1.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_EXP_RATE:2.0
+INFO 2024-04-13 14:02:36.049 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_DROP_RATE:2.0
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_GOLD_RATE:2.0
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_DURATION:2
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_MIN_LEVEL:10
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_PRODUCTION_RATE:0.5
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_SERVERID:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_BOTTOKEN:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_ROLEID:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_ANNOUNCE:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_SEPTIC:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_CHANGELOG:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_POLITICAL:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_GENERAL:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_FORTOFIX:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_RECRUIT:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_MAGICBOX:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_ADMINLOG:8675309
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(132) : Determine current Repo branch
+INFO 2024-04-13 14:02:36.050 [main] engine.gameManager.ConfigManager.init(161) : Compiling regex
+INFO 2024-04-13 14:02:36.065 [main] engine.server.world.WorldServer.init(291) : MAGICBANE SERVER GREETING:
+INFO 2024-04-13 14:02:36.065 [main] engine.server.world.WorldServer.init(292) : Welcome to Shadowbane
+INFO 2024-04-13 14:02:36.065 [main] engine.server.world.WorldServer.init(294) : Initialize network protocol
+INFO 2024-04-13 14:02:36.138 [main] engine.server.world.WorldServer.init(297) : Initialize database layer
+INFO 2024-04-13 14:02:36.138 [main] engine.server.world.WorldServer.initDatabaselayer(521) : Configuring GameObjectManager to use Database: 'magicbane' on localhost:3306
+INFO 2024-04-13 14:02:36.643 [main] engine.gameManager.DbManager.configureConnectionPool(326) : Database configured with 25 connections
+INFO 2024-04-13 14:02:36.646 [main] engine.server.world.WorldServer.init(300) : Starting network Dispatcher
+INFO 2024-04-13 14:02:36.650 [main] engine.net.MessageDispatcher.<init>(60) :  Dispatcher thread has started!
+INFO 2024-04-13 14:02:36.650 [main] engine.server.world.WorldServer.init(303) : Setting cross server session behavior
+INFO 2024-04-13 14:02:36.650 [main] engine.server.world.WorldServer.init(306) : Starting Item Production thread
+INFO 2024-04-13 14:02:36.651 [main] engine.server.world.WorldServer.init(309) : Initializing Errant Guild
+INFO 2024-04-13 14:02:36.655 [main] engine.server.world.WorldServer.init(312) : Initializing PowersManager.
+INFO 2024-04-13 14:02:37.267 [main] engine.server.world.WorldServer.init(315) : Initializing granted Skills for Runes
+INFO 2024-04-13 14:02:37.277 [main] engine.server.world.WorldServer.init(318) : Initializing Player Friends
+INFO 2024-04-13 14:02:37.323 [main] engine.server.world.WorldServer.init(321) : Initializing NPC Profits
+INFO 2024-04-13 14:02:37.331 [main] engine.server.world.WorldServer.init(324) : Initializing Petition Table
+INFO 2024-04-13 14:02:37.339 [main] engine.server.world.WorldServer.init(327) : Initializing MeshBounds
+INFO 2024-04-13 14:02:37.351 [main] engine.db.handlers.dbBuildingHandler.LOAD_MESH_BOUNDS(610) : read: 758 cached: 758
+INFO 2024-04-13 14:02:37.352 [main] engine.server.world.WorldServer.init(330) : Loading ItemBases
+INFO 2024-04-13 14:02:48.241 [main] engine.db.handlers.dbItemBaseHandler.LOAD_ALL_ITEMBASES(96) : read: 5094 cached: 5094
+INFO 2024-04-13 14:02:48.241 [main] engine.server.world.WorldServer.init(333) : Loading PromotionClasses
+INFO 2024-04-13 14:02:48.399 [main] engine.server.world.WorldServer.init(336) : Loading NPC and Mob Rune Sets
+INFO 2024-04-13 14:02:48.426 [main] engine.db.handlers.dbItemBaseHandler.LOAD_RUNES_FOR_NPC_AND_MOBS(134) : read: 6948 cached: 5341
+INFO 2024-04-13 14:02:48.426 [main] engine.server.world.WorldServer.init(339) : Loading Booty Sets
+INFO 2024-04-13 14:02:48.633 [main] engine.db.handlers.dbLootHandler.LOAD_BOOTY_TABLES(220) : read: 22745 cached: 5798
+INFO 2024-04-13 14:02:48.634 [main] engine.server.world.WorldServer.init(343) : Initializing Loot Manager
+INFO 2024-04-13 14:02:48.692 [main] engine.db.handlers.dbLootHandler.LOAD_GEN_ITEM_TABLES(65) : read: 614 cached: 64
+INFO 2024-04-13 14:02:48.738 [main] engine.db.handlers.dbLootHandler.LOAD_ITEM_TABLES(104) : read: 3099 cached: 216
+INFO 2024-04-13 14:02:48.758 [main] engine.db.handlers.dbLootHandler.LOAD_MOD_TABLES(143) : read: 746 cached: 158
+INFO 2024-04-13 14:02:48.791 [main] engine.db.handlers.dbLootHandler.LOAD_MOD_TYPE_TABLES(182) : read: 2771 cached: 264
+INFO 2024-04-13 14:02:49.345 [main] engine.db.handlers.dbRuneBaseHandler.LOAD_ALLOWED_STARTING_RUNES_FOR_BASECLASS(138) : read: 97 cached: 5
+INFO 2024-04-13 14:02:49.348 [main] engine.db.handlers.dbRuneBaseHandler.LOAD_ALLOWED_STARTING_RUNES_FOR_RACE(176) : read: 324 cached: 23
+INFO 2024-04-13 14:02:49.443 [main] engine.db.handlers.dbRaceHandler.LOAD_ALL_RACES(160) : read: 26 cached: 26
+INFO 2024-04-13 14:02:49.448 [main] engine.server.world.WorldServer.init(351) : Loading MobBases.
+INFO 2024-04-13 14:02:51.843 [main] engine.server.world.WorldServer.init(354) : Loading Mob Powers
+INFO 2024-04-13 14:02:51.868 [main] engine.db.handlers.dbPowerHandler.LOAD_MOB_POWERS(124) : read: 5373 cached: 986
+INFO 2024-04-13 14:02:51.868 [main] engine.server.world.WorldServer.init(357) : Loading item enchants
+INFO 2024-04-13 14:02:51.877 [main] engine.server.world.WorldServer.init(360) : Loading zone extent cache
+INFO 2024-04-13 14:02:51.885 [main] engine.server.world.WorldServer.init(363) : Loading Realms
+INFO 2024-04-13 14:02:51.908 [main] engine.db.handlers.dbRealmHandler.LOAD_ALL_REALMS(48) : read: 25 cached: 25
+INFO 2024-04-13 14:02:51.908 [main] engine.server.world.WorldServer.init(366) : Loading RealmMap
+INFO 2024-04-13 14:02:52.207 [main] engine.util.MapLoader.loadMap(71) : Realmmap: mb.data/realmmaps/3000002.png
+INFO 2024-04-13 14:02:52.208 [main] engine.util.MapLoader.loadMap(72) : 262144 pixels processed in 294 milis
+INFO 2024-04-13 14:02:52.208 [main] engine.util.MapLoader.loadMap(73) : 46833 realm pixels written 
+INFO 2024-04-13 14:02:52.208 [main] engine.server.world.WorldServer.init(369) : Loading Kits
+INFO 2024-04-13 14:02:52.217 [main] engine.server.world.WorldServer.init(372) : Loading World Grid
+INFO 2024-04-13 14:02:52.340 [main] engine.server.world.WorldServer.init(375) : Starting InterestManager.
+INFO 2024-04-13 14:02:52.341 [main] engine.InterestManagement.InterestManager.<init>(42) :  Interest Management thread is running.
+INFO 2024-04-13 14:02:52.341 [main] engine.server.world.WorldServer.init(378) : Loading blueprint data.
+INFO 2024-04-13 14:02:52.349 [main] engine.db.handlers.dbBuildingHandler.LOAD_ALL_STATIC_COLLIDERS(645) : read: 258 cached: 23
+INFO 2024-04-13 14:02:52.490 [main] engine.db.handlers.dbBuildingHandler.LOAD_BUILDING_REGIONS(585) : read: 4377 cached: 758
+INFO 2024-04-13 14:02:52.498 [main] engine.db.handlers.dbBlueprintHandler.LOAD_ALL_DOOR_NUMBERS(45) : read: 426 cached: 426
+INFO 2024-04-13 14:02:52.503 [main] engine.db.handlers.dbBlueprintHandler.LOAD_ALL_BLUEPRINTS(82) : read: 168 cached: 168
+INFO 2024-04-13 14:02:52.503 [main] engine.server.world.WorldServer.init(384) : Initializing Heightmap data
+INFO 2024-04-13 14:02:59.396 [main] engine.InterestManagement.HeightMap.loadAlHeightMaps(525) : 179 Heightmaps cached.
+INFO 2024-04-13 14:02:59.396 [main] engine.server.world.WorldServer.init(387) : Loading Race data
+INFO 2024-04-13 14:02:59.474 [main] engine.db.handlers.dbRaceHandler.LOAD_ALL_RACES(160) : read: 26 cached: 26
+INFO 2024-04-13 14:02:59.475 [main] engine.server.world.WorldServer.init(391) : Loading building slot/stuck location data.
+INFO 2024-04-13 14:02:59.517 [main] engine.server.world.WorldServer.init(398) : Starting Data Warehouse
+INFO 2024-04-13 14:02:59.518 [main] engine.db.archive.DataWarehouse.<init>(39) : Warehouse Remote Connection disabled along with push
+INFO 2024-04-13 14:02:59.518 [main] engine.server.world.WorldServer.init(401) : Loading Minion Bases.
+INFO 2024-04-13 14:02:59.518 [DataWarehouse] engine.db.archive.DataWarehouse.run(222) : DataWarehouse is running.
+INFO 2024-04-13 14:02:59.519 [main] engine.server.world.WorldServer.init(404) : Loading Pirate Names.
+INFO 2024-04-13 14:02:59.533 [main] engine.db.handlers.dbNPCHandler.LOAD_PIRATE_NAMES(307) : names read: 2788 for 24 mobBases
+INFO 2024-04-13 14:02:59.533 [main] engine.server.world.WorldServer.init(407) : Loading Support Types
+INFO 2024-04-13 14:03:00.824 [main] engine.objects.City.setParent(642) : Aeldreth Havens created custom heightmap
+ERROR 2024-04-13 14:03:12.393 [main] engine.gameManager.NPCManager.slotCharacterInBuilding(344) : No available slot for NPC: 15551
+WARNING 2024-04-13 14:03:12.603 [main] engine.objects.MobLoot.generateId(107) : Only 10,000 Id numbers remain useable. Server restart suggested.
+ERROR 2024-04-13 14:03:12.633 [main] engine.gameManager.NPCManager.slotCharacterInBuilding(344) : No available slot for NPC: 15895
+ERROR 2024-04-13 14:03:12.739 [main] engine.gameManager.NPCManager.slotCharacterInBuilding(344) : No available slot for NPC: 16056
+INFO 2024-04-13 14:03:20.204 [main] engine.objects.City.setParent(642) : Khan'Ov Srekel created custom heightmap
+ERROR 2024-04-13 14:03:20.332 [main] engine.gameManager.NPCManager.slotCharacterInBuilding(344) : No available slot for NPC: 31969
+INFO 2024-04-13 14:03:22.654 [main] engine.objects.MobLoot.generateId(114) : -20000 of -2147483648 Id numbers consumed.
+INFO 2024-04-13 14:03:22.974 [main] engine.objects.City.setParent(642) : Perdition created custom heightmap
+INFO 2024-04-13 14:03:23.040 [main] engine.objects.City.setParent(642) : Bastion created custom heightmap
+INFO 2024-04-13 14:03:25.108 [main] engine.objects.City.setParent(642) : All-Father's Rest created custom heightmap
+INFO 2024-04-13 14:03:28.643 [main] engine.objects.MobLoot.generateId(114) : -30000 of -2147483648 Id numbers consumed.
+INFO 2024-04-13 14:03:28.693 [main] engine.server.world.WorldServer.getWorldBuildingsMobsNPCs(634) : time to load: 28645 ms
+INFO 2024-04-13 14:03:28.693 [main] engine.server.world.WorldServer.init(417) : Configuring realm serialization data
+INFO 2024-04-13 14:03:28.693 [main] engine.server.world.WorldServer.init(420) : Loading Mine data.
+INFO 2024-04-13 14:03:28.702 [main] engine.server.world.WorldServer.init(423) : Loading Shrine data.
+INFO 2024-04-13 14:03:28.703 [main] engine.server.world.WorldServer.init(426) : Initialize Resource type lookup
+INFO 2024-04-13 14:03:28.704 [main] engine.server.world.WorldServer.init(429) : Loading Warehouse data.
+INFO 2024-04-13 14:03:28.706 [main] engine.server.world.WorldServer.init(432) : Loading Runegate data.
+INFO 2024-04-13 14:03:28.718 [main] engine.server.world.WorldServer.init(435) : Loading Max Skills for Trainers
+INFO 2024-04-13 14:03:28.727 [main] engine.server.world.WorldServer.init(441) : Loading All Players from database to Server Cache
+INFO 2024-04-13 14:03:28.729 [main] engine.server.world.WorldServer.init(452) : Loading All Players took 1 ms.
+INFO 2024-04-13 14:03:28.729 [main] engine.server.world.WorldServer.init(456) : Loading Player Heraldries
+INFO 2024-04-13 14:03:28.734 [main] engine.server.world.WorldServer.init(459) : Running Heraldry Audit for Deleted Players
+INFO 2024-04-13 14:03:28.735 [main] engine.server.world.WorldServer.init(463) : Starting Mob AI Thread
+INFO 2024-04-13 14:03:28.735 [main] engine.mobileAI.Threads.MobAIThread.<init>(20) :  MobAIThread thread has started!
+INFO 2024-04-13 14:03:28.736 [main] engine.server.world.WorldServer.init(474) : World data loaded.
+INFO 2024-04-13 14:03:28.737 [main] engine.server.world.WorldServer.init(478) : Default access level set to ACTIVE
+INFO 2024-04-13 14:03:28.737 [main] engine.server.world.WorldServer.init(480) : Initializing Network
+INFO 2024-04-13 14:03:28.767 [main] engine.server.world.WorldServer.init(483) : Initializing Client Connection Manager
+INFO 2024-04-13 14:03:28.768 [main] engine.server.world.WorldServer.initClientConnectionManager(257) : AUTOCONFIG EXTERNAL IP ADDRESS
+INFO 2024-04-13 14:03:28.943 [main] engine.server.world.WorldServer.initClientConnectionManager(274) : External address: 75.67.119.103:8000
+INFO 2024-04-13 14:03:28.944 [main] engine.server.world.WorldServer.initClientConnectionManager(275) : Internal address: 172.17.0.2:8000
+INFO 2024-04-13 14:03:28.949 [main] engine.net.AbstractConnectionManager.<init>(54) : MagicBox.ClientConnMan Configured to listen: /172.17.0.2:8000
+INFO 2024-04-13 14:03:28.950 [main] engine.server.world.WorldServer.init(487) : Starting Mob Respawn Thread
+INFO 2024-04-13 14:03:28.951 [main] engine.mobileAI.Threads.MobRespawnThread.<init>(30) :  MobRespawnThread thread has started!
+INFO 2024-04-13 14:03:28.952 [main] engine.gameManager.MaintenanceManager.dailyMaintenance(313) : Maintenance has started
+INFO 2024-04-13 14:03:28.952 [main] engine.gameManager.MaintenanceManager.dailyMaintenance(320) : Maintenance Costings: DISABLED
+INFO 2024-04-13 14:03:28.952 [main] engine.gameManager.MaintenanceManager.dailyMaintenance(322) : Maintenance has completed!
+INFO 2024-04-13 14:03:28.952 [main] engine.server.world.WorldServer.init(494) : Starting Orphan Item Purge
+INFO 2024-04-13 14:03:28.953 [main] engine.server.world.WorldServer.init(499) : Processing mine window.
+INFO 2024-04-13 14:03:28.956 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Aedroch Highlands's Mine is now Active!
+INFO 2024-04-13 14:03:28.957 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : The Black Bog's Mine is now Active!
+INFO 2024-04-13 14:03:28.957 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Sevaath Mere's Mine is now Active!
+INFO 2024-04-13 14:03:28.958 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Braedoch Highlands's Mine is now Active!
+INFO 2024-04-13 14:03:28.958 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Doomhorn Skrae's Mine is now Active!
+INFO 2024-04-13 14:03:28.958 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Valkos Wilds's Mine is now Active!
+INFO 2024-04-13 14:03:28.958 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : The Blood Sands's Mine is now Active!
+INFO 2024-04-13 14:03:28.958 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Bone Marches's Mine is now Active!
+INFO 2024-04-13 14:03:28.958 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Aurrochs Skrae's Mine is now Active!
+INFO 2024-04-13 14:03:28.959 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Ragnir Holm's Mine is now Active!
+INFO 2024-04-13 14:03:28.959 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Leth'khalivar Desert's Mine is now Active!
+INFO 2024-04-13 14:03:28.959 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Hethland Holm's Mine is now Active!
+INFO 2024-04-13 14:03:28.959 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Pandemonium's Mine is now Active!
+INFO 2024-04-13 14:03:28.959 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Ashfell Plain's Mine is now Active!
+INFO 2024-04-13 14:03:28.959 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Greensward Pyre's Mine is now Active!
+INFO 2024-04-13 14:03:28.960 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Aerath Hellendroth's Mine is now Active!
+INFO 2024-04-13 14:03:28.960 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Thollok Marsh's Mine is now Active!
+INFO 2024-04-13 14:03:28.960 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Aeran Belendor's Mine is now Active!
+INFO 2024-04-13 14:03:28.960 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Southern Battleground's Mine is now Active!
+INFO 2024-04-13 14:03:28.960 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Ymur's Crown's Mine is now Active!
+INFO 2024-04-13 14:03:28.960 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : The Doomplain's Mine is now Active!
+INFO 2024-04-13 14:03:28.960 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Hregend Wildlands's Mine is now Active!
+INFO 2024-04-13 14:03:28.961 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Tainted Swamp's Mine is now Active!
+INFO 2024-04-13 14:03:28.961 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Phaedra's Prize's Mine is now Active!
+INFO 2024-04-13 14:03:28.961 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Holloch Forest's Mine is now Active!
+INFO 2024-04-13 14:03:28.961 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Ecklund Wilds's Mine is now Active!
+INFO 2024-04-13 14:03:28.961 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Western Battleground's Mine is now Active!
+INFO 2024-04-13 14:03:28.961 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Derros Plains's Mine is now Active!
+INFO 2024-04-13 14:03:28.961 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Kralgaar Holm's Mine is now Active!
+INFO 2024-04-13 14:03:28.962 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Kharsoom's Mine is now Active!
+INFO 2024-04-13 14:03:28.962 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Grimscairne's Mine is now Active!
+INFO 2024-04-13 14:03:28.962 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Plain of Ashes's Mine is now Active!
+INFO 2024-04-13 14:03:28.962 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Vale of Nar Addad's Mine is now Active!
+INFO 2024-04-13 14:03:28.962 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Jotensgaard's Mine is now Active!
+INFO 2024-04-13 14:03:28.962 [main] engine.workthreads.HourlyJobThread.mineWindowOpen(121) : Fellgrim Forest's Mine is now Active!
+INFO 2024-04-13 14:03:28.969 [main] engine.server.world.WorldServer.init(507) : Bootstrap time was 0 hours 00 minutes 53 seconds
+INFO 2024-04-13 14:03:28.969 [main] engine.server.world.WorldServer.init(511) : Running garbage collection...
+INFO 2024-04-13 14:03:29.349 [MagicBox.ClientConnMan] engine.job.JobManager.<init>(51) : Adding JobPool_0 with 4 workers
+INFO 2024-04-13 14:03:29.350 [MagicBox.ClientConnMan] engine.job.JobManager.<init>(51) : Adding JobPool_1 with 2 workers
+INFO 2024-04-13 14:03:29.350 [warehousePush] engine.workthreads.WarehousePushThread.run(346) : WAREHOUSEPUSH DISABLED: EARLY EXIT
+INFO 2024-04-13 14:03:29.350 [MagicBox.ClientConnMan] engine.job.JobManager.<init>(51) : Adding JobPool_2 with 1 workers
+INFO 2024-04-13 14:03:29.350 [MagicBox.ClientConnMan] engine.job.JobManager._startup(159) : JM Starting up... 
+INFO 2024-04-13 14:03:29.624 [purgeOrphans] engine.workthreads.PurgeOprhans.run(62) : Thread is exiting with 0 items deleted

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="example">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/joda-time-main/src/example" />
+      <root url="file://$USER_HOME$/Documents/joda-time-main/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/joda-time-main/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

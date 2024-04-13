@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="java-1.8.0-amazon-corretto-jdk_8.402">
+    <ANNOTATIONS>
+      <root url="file://$USER_HOME$/Documents/java-1.8.0-amazon-corretto-jdk_8.402.08-1_amd64" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/java-1.8.0-amazon-corretto-jdk_8.402.08-1_amd64" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Documents/java-1.8.0-amazon-corretto-jdk_8.402.08-1_amd64" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$USER_HOME$/Documents/java-1.8.0-amazon-corretto-jdk_8.402.08-1_amd64" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/java-1.8.0-amazon-corretto-jdk_8.402.08-1_amd64" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Documents/java-1.8.0-amazon-corretto-jdk_8.402.08-1_amd64" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Documents/java-1.8.0-amazon-corretto-jdk_8.402.08-1_amd64" recursive="false" type="SOURCES" />
+  </library>
+</component>

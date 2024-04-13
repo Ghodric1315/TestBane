@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="src1">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/benchmark/src" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/jcl-binding/src" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/jcl-binding/test" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/log4j-facade/src" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/log4j-facade/test" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/slf4j-binding/src" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/slf4j-binding/test" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/tinylog-core/src" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/tinylog-core/test" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/tinylog-jboss/src" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/tinylog-jboss/test" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/tinylog-jul/src" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/tinylog-jul/test" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/tinylog/src" />
+      <root url="file://$USER_HOME$/Documents/tinylog-1.3/tinylog/test" />
+    </SOURCES>
+  </library>
+</component>

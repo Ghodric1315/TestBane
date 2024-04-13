@@ -1,0 +1,21 @@
+Subject: [PATCH] Tree Overlap Reduction
+---
+Index: src/engine/Enum.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/Enum.java b/src/engine/Enum.java
+--- a/src/engine/Enum.java	(revision 9bf859b473fea95ff8acab91246c8827a95b9a9d)
++++ b/src/engine/Enum.java	(revision 4c0eb38889bc1696e49d6ea03c6743be93e6977b)
+@@ -2307,8 +2307,8 @@
+     public enum CityBoundsType {
+ 
+         GRID(640),
+-        ZONE(875),
+-        PLACEMENT(876);
++        ZONE(675),
++        PLACEMENT(677);
+ 
+         public final float extents;
+ 

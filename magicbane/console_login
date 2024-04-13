@@ -1,0 +1,88 @@
+INFO 2024-04-13 14:02:36.112 [main] engine.gameManager.ConfigManager.init(120) : Loading config from environment.
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_BIND_ADDR:172.17.0.2
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_EXTERNAL_ADDR:0.0.0.0
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_ADDRESS:localhost
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_PORT:3306
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_NAME:magicbane
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_USER:magicbox
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_DATABASE_PASS:ArtyomWasHere
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_WAREHOUSE_ADDR:0.0.0.0
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_WAREHOUSE_USER:forumuser
+INFO 2024-04-13 14:02:36.113 [main] engine.gameManager.ConfigManager.init(124) : MB_WAREHOUSE_PASS:forumpass
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_LOGIN_PORT:6000
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_LOGIN_AUTOREG:TRUE
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_LOGIN_FNAME_REGEX:^[A-Za-z]+$
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_MAJOR_VER:1.2.26.0
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_MINOR_VER:5.26.0
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_NAME:MagicBox
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_MAPID:162
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_REALMMAP:3000002
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_PORT:8000
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_ACCESS_LVL:ACTIVE
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_WAREHOUSE_PUSH:false
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_MAINTENANCE:false
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_GREETING:Welcome to Shadowbane
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_WORLD_KEYCLONE_MAX:4
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_USE_RUINS:false
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_AI_CAST_FREQUENCY:1.0
+INFO 2024-04-13 14:02:36.114 [main] engine.gameManager.ConfigManager.init(124) : MB_AI_AGGRO_RANGE:1.0
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_NORMAL_EXP_RATE:1.0
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_NORMAL_DROP_RATE:1.0
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_NORMAL_GOLD_RATE:1.0
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_EXP_RATE:2.0
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_DROP_RATE:2.0
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_GOLD_RATE:2.0
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_DURATION:2
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_HOTZONE_MIN_LEVEL:10
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_PRODUCTION_RATE:0.5
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_SERVERID:8675309
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_BOTTOKEN:8675309
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_ROLEID:8675309
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_ANNOUNCE:8675309
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_SEPTIC:8675309
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_CHANGELOG:8675309
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_POLITICAL:8675309
+INFO 2024-04-13 14:02:36.115 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_GENERAL:8675309
+INFO 2024-04-13 14:02:36.116 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_FORTOFIX:8675309
+INFO 2024-04-13 14:02:36.116 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_RECRUIT:8675309
+INFO 2024-04-13 14:02:36.116 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_MAGICBOX:8675309
+INFO 2024-04-13 14:02:36.116 [main] engine.gameManager.ConfigManager.init(124) : MB_MAGICBOT_ADMINLOG:8675309
+INFO 2024-04-13 14:02:36.116 [main] engine.gameManager.ConfigManager.init(132) : Determine current Repo branch
+INFO 2024-04-13 14:02:36.116 [main] engine.gameManager.ConfigManager.init(161) : Compiling regex
+INFO 2024-04-13 14:02:36.116 [main] engine.server.login.LoginServer.init(235) : Initializing Database layer
+INFO 2024-04-13 14:02:36.116 [main] engine.server.login.LoginServer.initDatabaseLayer(296) : Configuring Magicbane to use Database: 'magicbane' on localhost:3306
+[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+INFO 2024-04-13 14:02:36.641 [main] engine.gameManager.DbManager.configureConnectionPool(326) : Database configured with 25 connections
+INFO 2024-04-13 14:02:36.646 [main] engine.server.login.LoginServer.init(238) : Initializing Network
+INFO 2024-04-13 14:02:36.666 [main] engine.server.login.LoginServer.init(241) : Initializing Client Connection Manager
+INFO 2024-04-13 14:02:36.667 [main] engine.server.login.LoginServer.initClientConnectionManager(343) : AUTOCONFIG EXTERNAL IP ADDRESS
+INFO 2024-04-13 14:02:36.827 [main] engine.server.login.LoginServer.initClientConnectionManager(360) : External address: 75.67.119.103:6000
+INFO 2024-04-13 14:02:36.827 [main] engine.server.login.LoginServer.initClientConnectionManager(361) : Internal address: 172.17.0.2:6000
+INFO 2024-04-13 14:02:36.831 [main] engine.net.AbstractConnectionManager.<init>(54) : MagicBox.ClientConnMan Configured to listen: /172.17.0.2:6000
+INFO 2024-04-13 14:02:36.833 [main] engine.server.login.LoginServer.init(245) : Initializing SessionManager.
+INFO 2024-04-13 14:02:36.835 [main] engine.server.login.LoginServer.init(251) : Initializing PowersManager.
+INFO 2024-04-13 14:02:37.090 [MagicBox.ClientConnMan] engine.job.JobManager.<init>(51) : Adding JobPool_0 with 4 workers
+INFO 2024-04-13 14:02:37.090 [MagicBox.ClientConnMan] engine.job.JobManager.<init>(51) : Adding JobPool_1 with 2 workers
+INFO 2024-04-13 14:02:37.091 [MagicBox.ClientConnMan] engine.job.JobManager.<init>(51) : Adding JobPool_2 with 1 workers
+INFO 2024-04-13 14:02:37.091 [MagicBox.ClientConnMan] engine.job.JobManager._startup(159) : JM Starting up... 
+INFO 2024-04-13 14:02:37.767 [main] engine.db.handlers.dbRuneBaseHandler.LOAD_ALLOWED_STARTING_RUNES_FOR_BASECLASS(138) : read: 97 cached: 5
+INFO 2024-04-13 14:02:37.769 [main] engine.db.handlers.dbRuneBaseHandler.LOAD_ALLOWED_STARTING_RUNES_FOR_RACE(176) : read: 324 cached: 23
+INFO 2024-04-13 14:02:37.981 [main] engine.db.handlers.dbRaceHandler.LOAD_ALL_RACES(160) : read: 26 cached: 26
+INFO 2024-04-13 14:02:37.986 [main] engine.server.login.LoginServer.init(260) : Initializing Blueprint data.
+INFO 2024-04-13 14:02:37.996 [main] engine.db.handlers.dbBlueprintHandler.LOAD_ALL_BLUEPRINTS(82) : read: 168 cached: 168
+INFO 2024-04-13 14:02:37.996 [main] engine.server.login.LoginServer.init(263) : Loading Kits
+INFO 2024-04-13 14:02:38.003 [main] engine.server.login.LoginServer.init(266) : Initializing ItemBase data.
+INFO 2024-04-13 14:02:48.895 [main] engine.db.handlers.dbItemBaseHandler.LOAD_ALL_ITEMBASES(96) : read: 5094 cached: 5094
+INFO 2024-04-13 14:02:48.896 [main] engine.server.login.LoginServer.init(269) : Initializing Race data
+INFO 2024-04-13 14:02:49.018 [main] engine.db.handlers.dbRaceHandler.LOAD_ALL_RACES(160) : read: 26 cached: 26
+INFO 2024-04-13 14:02:49.019 [main] engine.server.login.LoginServer.init(273) : Initializing Errant Guild
+INFO 2024-04-13 14:02:49.023 [main] engine.server.login.LoginServer.init(276) : Loading All Guilds
+INFO 2024-04-13 14:02:49.206 [main] engine.server.login.LoginServer.init(280) : ***Boot Successful***
+INFO 2024-04-13 14:02:49.498 [main] engine.server.login.LoginServer.exec(215) : Keepalive: Chars:0 Guilds:13 Cities:0 Rulers:0
+INFO 2024-04-13 14:04:23.223 [JobWorker_0_2] engine.server.login.LoginServerMsgHandler.Login(201) : AutoRegister: Ghodric/Admin
+INFO 2024-04-13 14:04:23.264 [JobWorker_0_2] engine.server.login.LoginServerMsgHandler.Login(287) : Ghodric(42218) has successfully logged in from /172.17.0.1:46992
+INFO 2024-04-13 14:05:32.880 [JobWorker_0_1] engine.objects.PlayerCharacter.generatePCFromCommitNewCharacterMsg(993) : Bought Taint of Chaos for 10 points. 30 left.
+INFO 2024-04-13 14:05:32.880 [JobWorker_0_1] engine.objects.PlayerCharacter.generatePCFromCommitNewCharacterMsg(993) : Bought Wizard's Apprentice for 8 points. 22 left.
+INFO 2024-04-13 14:05:32.880 [JobWorker_0_1] engine.objects.PlayerCharacter.generatePCFromCommitNewCharacterMsg(993) : Bought Brilliant Mind for 12 points. 10 left.
+INFO 2024-04-13 14:05:32.880 [JobWorker_0_1] engine.objects.PlayerCharacter.generatePCFromCommitNewCharacterMsg(993) : Bought Shopkeeper's Apprentice for 10 points. 0 left.

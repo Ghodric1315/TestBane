@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="JDA-master">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/JDA-master" />
+      <root url="file://$USER_HOME$/Documents/JDA-master/src/examples/java" />
+      <root url="file://$USER_HOME$/Documents/JDA-master/src/main/java" />
+      <root url="file://$USER_HOME$/Documents/JDA-master/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

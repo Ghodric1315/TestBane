@@ -1,0 +1,58 @@
+Subject: [PATCH] random disc runes
+---
+Index: src/engine/gameManager/LootManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/gameManager/LootManager.java b/src/engine/gameManager/LootManager.java
+--- a/src/engine/gameManager/LootManager.java	(revision 8349c2690621698917026ea9f839da145ec4f053)
++++ b/src/engine/gameManager/LootManager.java	(revision fec0a05c46fbf65792970714f2fd4febcd04f29b)
+@@ -98,15 +98,10 @@
+                     DispatchMessage.dispatchMsgToAll(chatMsg);
+                 }
+                 if(ib.isDiscRune()){
+-                    ItemBase newDisc = ItemBase.getItemBase(ThreadLocalRandom.current().nextInt(3001,3049));
+-                    if(newDisc != null){
+-                        mob.getInventory().remove(it);
+-                        mob.getInventory().add(new MobLoot(mob,newDisc,true));
+-                        ChatSystemMsg chatMsg = new ChatSystemMsg(null, mob.getName() + " in " + mob.getParentZone().getName() + " has found the " + newDisc.getName() + ". Are you tough enough to take it?");
++                        ChatSystemMsg chatMsg = new ChatSystemMsg(null, mob.getName() + " in " + mob.getParentZone().getName() + " has found the " + ib.getName() + ". Are you tough enough to take it?");
+                         chatMsg.setMessageType(10);
+                         chatMsg.setChannel(Enum.ChatChannelType.SYSTEM.getChannelID());
+                         DispatchMessage.dispatchMsgToAll(chatMsg);
+-                    }
+                 }
+             }
+ 
+@@ -401,18 +396,23 @@
+         if (chanceRoll > bse.dropChance)
+             return;
+ 
++        ItemBase ib = ItemBase.getItemBase(bse.itemBase);
++        if (ib == null)
++            return;
++
++        if (ib.isDiscRune()) {
++            ItemBase newDisc = ItemBase.getItemBase(ThreadLocalRandom.current().nextInt(3001, 3049 + 1));
++            if (newDisc != null) {
++                //mob.getInventory().add(new MobLoot(mob, newDisc, true));
++                mob.getCharItemManager().addItemToInventory(new MobLoot(mob, newDisc, true));
++                return;
++            }
++        }
+         MobLoot lootItem = new MobLoot(mob, ItemBase.getItemBase(bse.itemBase), true);
+ 
+         if (lootItem != null)
+             mob.getCharItemManager().addItemToInventory(lootItem);
+-        if(inHotzone){
+-            MobLoot lootItem2 = new MobLoot(mob, ItemBase.getItemBase(bse.itemBase), true);
+-
+-            if (lootItem != null)
+-                mob.getCharItemManager().addItemToInventory(lootItem2);
+-        }
+     }
+-
+     public static void peddleFate(PlayerCharacter playerCharacter, Item gift) {
+ 
+         //get table ID for the itembase ID

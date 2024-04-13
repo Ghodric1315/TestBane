@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="mysql-connector-j_8.3.0-1ubuntu23">
+    <ANNOTATIONS>
+      <root url="file://$USER_HOME$/Documents/mysql-connector-j_8.3.0-1ubuntu23.10_all_1" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/Documents/mysql-connector-j_8.3.0-1ubuntu23.10_all_1" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Documents/mysql-connector-j_8.3.0-1ubuntu23.10_all_1" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$USER_HOME$/Documents/mysql-connector-j_8.3.0-1ubuntu23.10_all_1" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Documents/mysql-connector-j_8.3.0-1ubuntu23.10_all_1" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Documents/mysql-connector-j_8.3.0-1ubuntu23.10_all_1" recursive="false" />
+    <jarDirectory url="file://$USER_HOME$/Documents/mysql-connector-j_8.3.0-1ubuntu23.10_all_1" recursive="false" type="SOURCES" />
+  </library>
+</component>

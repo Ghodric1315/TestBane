@@ -1,0 +1,39 @@
+Subject: [PATCH] rune merchant cleanup
+---
+Index: src/engine/server/world/WorldServer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/server/world/WorldServer.java b/src/engine/server/world/WorldServer.java
+--- a/src/engine/server/world/WorldServer.java	(revision f3b00a62494587a4b0d868a2cd46580656184490)
++++ b/src/engine/server/world/WorldServer.java	(revision c5f5c33329bbafa1ffc44db4a1a7a4e9502ebba7)
+@@ -648,6 +648,28 @@
+ 			ZoneManager.loadCities(zone);
+ 			ZoneManager.populateWorldZones(zone);
+ 
++		}
++		//add extra vendors for lakebane
++		//
++		try {
++			Building sdrHut = BuildingManager.getBuilding(180430);
++			Zone sdr = sdrHut.parentZone;
++			boolean exists = false;
++			for(NPC merchant : sdr.zoneNPCSet)
++				if(merchant.contract.getContractID() == 1200)
++					exists = true;
++			if (!exists) {
++				NPC runeMerchant = NPC.createNPC("Runey", 1200, Vector3fImmutable.ZERO, Guild.getGuild(6), ZoneManager.getZoneByUUID(656), (short) 70, null);
++				runeMerchant.sellPercent = 9999.00f;
++				runeMerchant.buildingUUID = sdrHut.getObjectUUID();
++				runeMerchant.building = sdrHut;
++				NPCManager.slotCharacterInBuilding(runeMerchant);
++				runeMerchant.setLoc(runeMerchant.bindLoc);
++				runeMerchant.updateDatabase();
++			}
++		}
++		catch(Exception e){
++			Logger.error("FAILED TO ADD RUNE MERCHANT");
+ 		}
+ 		try {
+ 			Building sdrHut = BuildingManager.getBuilding(27978);

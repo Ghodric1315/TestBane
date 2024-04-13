@@ -1,0 +1,97 @@
+Subject: [PATCH] Random Vorg From Droppers
+---
+Index: src/engine/gameManager/LootManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/gameManager/LootManager.java b/src/engine/gameManager/LootManager.java
+--- a/src/engine/gameManager/LootManager.java	(revision 54414ecc3fb9df5b13eb4cdcf8a8a7fffa32908a)
++++ b/src/engine/gameManager/LootManager.java	(revision b6f66a8d9f8cb92b4de6545cee69576871066aa9)
+@@ -17,6 +17,7 @@
+ import org.pmw.tinylog.Logger;
+ 
+ import java.util.ArrayList;
++import java.util.Arrays;
+ import java.util.HashMap;
+ import java.util.concurrent.ThreadLocalRandom;
+ 
+@@ -34,6 +35,11 @@
+     public static HashMap<Integer, ArrayList<ModTableEntry>> _modTables = new HashMap<>();
+     public static HashMap<Integer, ArrayList<ModTypeTableEntry>> _modTypeTables = new HashMap<>();
+ 
++    public static ArrayList<Integer> vorg_ha_uuids = new ArrayList<>(Arrays.asList(new Integer[]{27580, 27590, 188500, 188510, 188520, 188530, 188540, 188550, 189510}));
++    public static ArrayList<Integer> vorg_ma_uuids = new ArrayList<>(Arrays.asList(new Integer[]{27570,188900,188910,188920,188930,188940,188950,189500}));
++    public static ArrayList<Integer> vorg_la_uuids = new ArrayList<>(Arrays.asList(new Integer[]{27550,27560,189100,189110,189120,189130,189140,189150}));
++    public static ArrayList<Integer> vorg_cloth_uuids = new ArrayList<>(Arrays.asList(new Integer[]{27600,188700,188720,189550,189560}));
++
+     // Drop Rates
+ 
+     public static float NORMAL_DROP_RATE;
+@@ -357,8 +363,24 @@
+ 
+                 if (equipmentRoll > dropChance)
+                     continue;
+-
+-                MobLoot ml = new MobLoot(mob, me.getItemBase(), false);
++                ItemBase genericIB = me.getItemBase();
++                //if(genericIB.isVorg()){
++                    if(vorg_cloth_uuids.contains(genericIB.getUUID())){
++                        //get random cloth piece
++                        genericIB = ItemBase.getItemBase(vorg_cloth_uuids.get(ThreadLocalRandom.current().nextInt(0,vorg_cloth_uuids.size() - 1)));
++                    } else if(vorg_ha_uuids.contains(genericIB.getUUID())){
++                        //get random heavy armor piece
++                        genericIB = ItemBase.getItemBase(vorg_ha_uuids.get(ThreadLocalRandom.current().nextInt(0,vorg_ha_uuids.size() - 1)));
++                    } else if(vorg_ma_uuids.contains(genericIB.getUUID())){
++                        //get random medium armor piece
++                        genericIB = ItemBase.getItemBase(vorg_ma_uuids.get(ThreadLocalRandom.current().nextInt(0,vorg_ma_uuids.size() - 1)));
++                    } else if(vorg_la_uuids.contains(genericIB.getUUID())){
++                        //get random light armor piece
++                        genericIB = ItemBase.getItemBase(vorg_la_uuids.get(ThreadLocalRandom.current().nextInt(0,vorg_la_uuids.size() - 1)));
++                    }
++                    mob.spawnTime = ThreadLocalRandom.current().nextInt(300,2700);
++                //}
++                    MobLoot ml = new MobLoot(mob, genericIB, false);
+ 
+                 if (ml != null && dropCount < 1) {
+                     ml.setIsID(true);
+Index: src/engine/objects/ItemBase.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/objects/ItemBase.java b/src/engine/objects/ItemBase.java
+--- a/src/engine/objects/ItemBase.java	(revision 54414ecc3fb9df5b13eb4cdcf8a8a7fffa32908a)
++++ b/src/engine/objects/ItemBase.java	(revision b6f66a8d9f8cb92b4de6545cee69576871066aa9)
+@@ -13,6 +13,7 @@
+ import engine.Enum.GameObjectType;
+ import engine.Enum.ItemType;
+ import engine.gameManager.DbManager;
++import engine.gameManager.LootManager;
+ import engine.server.MBServerStatics;
+ import org.pmw.tinylog.Logger;
+ 
+@@ -914,4 +915,23 @@
+     public void setAutoID(boolean autoID) {
+         this.autoID = autoID;
+     }
++
++    public boolean isVorg(){
++        return LootManager.vorg_ha_uuids.contains(this.uuid) || LootManager.vorg_ma_uuids.contains(this.uuid) || LootManager.vorg_la_uuids.contains(this.uuid) || LootManager.vorg_cloth_uuids.contains(this.uuid);
++    }
++
++    public String[] getVorgStats() {
++        if(this.isLightArmor() || this.isMediumArmor() || this.isHeavyArmor() || this.isClothArmor()){
++            if(this.getValidSlot() == MBServerStatics.SLOT_FEET) {
++                return new String[]{"PRE-130", "PRE-232", "PRE-212", "PRE-222", "SUF-007","SUF-150"};
++            }else {
++                return new String[]{"PRE-130", "PRE-232", "PRE-212", "PRE-222", "SUF-007"};
++            }
++
++        } else if(this.isShield()){//shield
++            return new String[]{"SUF-265","PRE-123","PRE-232", "PRE-212", "PRE-222"};
++        } else{//weapon
++            return new String[]{"PRE-020","PRE-033",};
++        }
++    }
+ }

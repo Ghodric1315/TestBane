@@ -1,0 +1,29 @@
+Subject: [PATCH] Tree Upgrade time changes
+---
+Index: src/engine/objects/Blueprint.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/objects/Blueprint.java b/src/engine/objects/Blueprint.java
+--- a/src/engine/objects/Blueprint.java	(revision b6f66a8d9f8cb92b4de6545cee69576871066aa9)
++++ b/src/engine/objects/Blueprint.java	(revision 8349c2690621698917026ea9f839da145ec4f053)
+@@ -497,7 +497,17 @@
+         // Select equation for rank time based upon the
+         // buildings current Maintenance BuildingGroup.  These values
+         // are expressed in hours
+-
++        if(this.getBuildingGroup().equals(BuildingGroup.TOL))
++            switch(targetRank){
++                case 2:
++                case 3:
++                case 4:
++                case 5:
++                    return 6;
++                case 6:
++                case 7:
++                    return 36;
++            }
+ 
+         return 5;
+     }

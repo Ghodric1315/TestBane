@@ -1,0 +1,111 @@
+Subject: [PATCH] slot NPC fix
+---
+Index: src/engine/gameManager/BuildingManager.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/gameManager/BuildingManager.java b/src/engine/gameManager/BuildingManager.java
+--- a/src/engine/gameManager/BuildingManager.java	(revision 35e18e4186f6d52beeb68cb95a25b187b12ae025)
++++ b/src/engine/gameManager/BuildingManager.java	(revision cd900d6e2e49e8e21daddbb80189902bd3a70448)
+@@ -520,40 +520,10 @@
+         if (building.getBlueprintUUID() == 0)
+             return false;
+ 
+-        if (building.getBlueprint().getMaxSlots() == building.getHirelings().size() && building.getBlueprint().getBuildingGroup().equals(BuildingGroup.TOL) == false)
+-            return false;
+-
+-        int availableSlots = 0;
+-        if(building.getBlueprint().getBuildingGroup().equals(BuildingGroup.TOL)){
+-        switch (building.getRank()) {
+-
+-            case 1:
+-            case 2:
+-                availableSlots = 1;
+-                break;
+-            case 3:
+-            case 4:
+-            case 5:
+-                availableSlots = 2;
+-                break;
+-            case 6:
+-            case 7:
+-                availableSlots = 3;
+-                break;
+-            case 8:
+-                availableSlots = 3;
+-                break;
+-            default:
+-                availableSlots = 0;
+-                break;
+-        }
+-
+-            availableSlots += 1;
+-        }
+-        if (availableSlots == building.getHirelings().size()){
++        if (building.getBlueprint().getSlotsForRank(building.getRank()) == building.getHirelings().size()) {
++            Logger.error("failed at addHireling with contract: " + contract.getContractID());
+             return false;
+         }
+-
+         String pirateName = NPCManager.getPirateName(contract.getMobbaseID());
+ 
+         if (item.getChargesRemaining() > 0)
+Index: src/engine/net/client/handlers/ActivateNPCMsgHandler.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/net/client/handlers/ActivateNPCMsgHandler.java b/src/engine/net/client/handlers/ActivateNPCMsgHandler.java
+--- a/src/engine/net/client/handlers/ActivateNPCMsgHandler.java	(revision 35e18e4186f6d52beeb68cb95a25b187b12ae025)
++++ b/src/engine/net/client/handlers/ActivateNPCMsgHandler.java	(revision cd900d6e2e49e8e21daddbb80189902bd3a70448)
+@@ -100,7 +100,6 @@
+ 
+             if (contractItem == null)
+                 return false;
+-
+             if (msg.getContractItem() == 850) {//runemaster
+                 for (AbstractCharacter abs : building.getHirelings().keySet()) {
+                     NPC npc = (NPC) abs;
+Index: src/engine/objects/Blueprint.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/engine/objects/Blueprint.java b/src/engine/objects/Blueprint.java
+--- a/src/engine/objects/Blueprint.java	(revision 35e18e4186f6d52beeb68cb95a25b187b12ae025)
++++ b/src/engine/objects/Blueprint.java	(revision cd900d6e2e49e8e21daddbb80189902bd3a70448)
+@@ -181,9 +181,6 @@
+     public int getMaxSlots() {
+         if (this.buildingGroup != null && this.buildingGroup.equals(BuildingGroup.BARRACK))
+             return 1;
+-        if (this.buildingGroup != null && this.buildingGroup.equals(BuildingGroup.TOL)){
+-            return 4;
+-        }
+         return maxSlots;
+     }
+ 
+@@ -319,7 +316,7 @@
+         if (this.maxSlots <= 1 && this.buildingGroup.equals(BuildingGroup.TOL) == false)
+             return maxSlots;
+ 
+-        if (this.maxRank == 1 && currentRank == 1 && this.buildingGroup.equals(BuildingGroup.TOL) == false)
++        if (this.maxRank == 1 && currentRank == 1&& this.buildingGroup.equals(BuildingGroup.TOL) == false)
+             return getMaxSlots();
+ 
+         switch (currentRank) {
+@@ -335,11 +332,13 @@
+                 break;
+             case 6:
+             case 7:
++                availableSlots = 3;
++                break;
+             case 8:
+                 availableSlots = 3;
+                 break;
+             default:
+-                availableSlots = 1;
++                availableSlots = 0;
+                 break;
+         }
+         if(this.buildingGroup.equals(BuildingGroup.TOL)){
