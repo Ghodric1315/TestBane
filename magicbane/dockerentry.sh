@@ -70,7 +70,7 @@ sudo apt-get -qq install nano
 # startup the game
 ./mbstart.sh &
 
-echo "Magicbane is running!"
+echo "Test is running!"
 
 # spin spin spin 
 # replace with console tail?
