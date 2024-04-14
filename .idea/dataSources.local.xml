@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-241.14494.240">
+    <data-source name="leveldb" uuid="859639ee-ef1e-4797-8445-94ae507247a3">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="HSQLDB" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping />
+      <ssh-properties>
+        <enabled>true</enabled>
+        <ssh-config-id>3ca05613-20d1-4519-a1bc-1f4063f82038</ssh-config-id>
+      </ssh-properties>
+    </data-source>
+  </component>
+</project>
