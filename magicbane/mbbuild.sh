@@ -5,7 +5,7 @@
 
 #!/bin/bash -e
 
-cd build/Server
+cd build/master
 git remote update
 
 if [ "$1" == "" ]
